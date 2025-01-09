@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-  - host: elephant-eks.tdtlworld.com
+  - host: elephant-eks.tdtlworld.com #comment
     http:
       paths:
       - path: /
