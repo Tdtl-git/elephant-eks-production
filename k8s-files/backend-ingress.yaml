@@ -8,7 +8,7 @@ metadata:
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80, "HTTPS": 443}]'  # Listener on port 80
     alb.ingress.kubernetes.io/target-type: "ip"
     alb.ingress.kubernetes.io/backend-protocol: HTTP  # Ensure the backend protocol is HTTP
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:976979239121:certificate/9f64a522-e6f2-4ace-9320-6c45a7d494ed
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:976979239121:certificate/8f68b16d-d315-4f83-b59a-8279d5046c01
     alb.ingress.kubernetes.io/ssl-redirect: 'true'
 spec:
   ingressClassName: alb  # Ensure your Ingress class is set to 'alb'
