@@ -13,7 +13,7 @@ metadata:
 spec:
   ingressClassName: alb  # Ensure your Ingress class is set to 'alb'
   rules:
-    - host: elephant-eks.tdtlworld.com  # Ensure your domain is correctly mapped
+    - host: newbackend.Elephant-tank.com  # Ensure your domain is correctly mapped
       http:
         paths:
           - path: /
